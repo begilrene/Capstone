@@ -86,7 +86,7 @@
           android:layout_width="@dimen/_5sdp"
           android:layout_height="match_parent"
           android:layout_marginStart="@dimen/_5sdp"
-          android:background="@color/ColorDefaultNote" />
+          android:background="@color/ColorYellowNote" />
       <EditText
           android:id="@+id/editTextNotesSubject"
           android:layout_width="match_parent"
