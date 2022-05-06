@@ -37,26 +37,7 @@ class NotesBottomSheetFragment : BottomSheetDialogFragment (){
                 }
 
                 override fun onStateChanged(bottomSheet: View, newState: Int) {
-                    var state = ""
-                    when(newState){
-                        BottomSheetBehavior.STATE_DRAGGING -> {
-                            state = "DRAGGING"
-                        }
-                        BottomSheetBehavior.STATE_SETTLING -> {
-                            state = "SETTLING"
-                        }
-                        BottomSheetBehavior.STATE_EXPANDED -> {
-                            state = "EXPANDED"
-                        }
-                        BottomSheetBehavior.STATE_COLLAPSED -> {
-                            state = "COLLAPSED"
-                        }
-                        BottomSheetBehavior.STATE_HIDDEN -> {
-                            state = "HIDDEN"
-                            dismiss()
-                            behavior.state = BottomSheetBehavior.STATE_COLLAPSED
-                        }
-                    }
+                   TODO("Not Implemented")
                 }
             })
         }
