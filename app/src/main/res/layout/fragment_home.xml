@@ -26,6 +26,7 @@
        android:theme="@style/ThemeOverlay.search"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
+       android:visibility="gone"
        android:layout_margin="@dimen/_10sdp"
        android:background="@drawable/background"
        app:iconifiedByDefault="false"
